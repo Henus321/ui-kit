@@ -21,6 +21,7 @@
     "devDependencies": {
         "@rsbuild/core": "^1.5.13",
         "@rsbuild/plugin-react": "^1.4.0",
+        "@rsbuild/plugin-sass": "^1.4.0",
         "@rslib/core": "^0.14.0",
         "@storybook/addon-docs": "^9.1.8",
         "@storybook/addon-onboarding": "^9.1.8",
@@ -36,5 +37,8 @@
     "peerDependencies": {
         "react": ">=16.9.0",
         "react-dom": ">=16.9.0"
+    },
+    "dependencies": {
+        "sass": "^1.93.2"
     }
 }
